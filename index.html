@@ -3,94 +3,83 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of johnsonpremb, a designer focused on thoughtful, practical design.">
-  <meta name="theme-color" content="#f5f4f0">
-  <title>johnsonpremb | Designer</title>
+  <meta name="description" content="Johnson Prem, Mechanical Engineer focused on CAD design, mechanical assemblies, product development, and sustainable engineering.">
+  <title>Johnson Prem | Mechanical Engineer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="johnsonpremb home">johnsonpremb<span>.</span></a>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#work">Work</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
-    </nav>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
-  </header>
+<header class="header">
+  <a class="brand" href="#home">Johnson Prem<span>.</span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-label="Open navigation">Menu</button>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#strengths">Strengths</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact ↗</a>
+  </nav>
+</header>
+<main>
+<section class="hero wrap" id="home">
+  <div class="hero-kicker"><span class="dot"></span> Mechanical Engineer · CAD & Product Design</div>
+  <h1>Engineering ideas.<br><span>Designed with purpose.</span></h1>
+  <div class="hero-bottom">
+    <p>Mechanical engineering graduate with a focus on 3D CAD, mechanical assemblies, and product concepts. I turn design requirements into clear, practical models and technical documentation.</p>
+    <a class="button button-dark" href="#projects">Explore my projects <span>↘</span></a>
+  </div>
+  <div class="hero-image"><img src="images/radial-engine.png" alt="Radial engine CAD assembly drawing"><div class="image-label">SELECTED CAD WORK <span>01 / 06</span></div></div>
+</section>
 
-  <main>
-    <section class="hero section-wrap" id="home">
-      <div class="hero-topline"><span class="status-dot"></span> Available for select projects <span class="topline-right">Portfolio / 2026</span></div>
-      <h1>Designing with<br><span class="muted">clarity and purpose.</span></h1>
-      <div class="hero-bottom">
-        <p class="hero-copy">I’m a designer who enjoys turning complex ideas into clear, useful experiences. I care about the details, the people using the work, and how every part fits together.</p>
-        <a class="text-link" href="#work">Explore selected work <span aria-hidden="true">↓</span></a>
-      </div>
-      <div class="hero-art" aria-label="Abstract geometric design artwork">
-        <div class="art-grid"></div>
-        <div class="art-circle"></div>
-        <div class="art-block"></div>
-        <div class="art-line"></div>
-        <span class="art-label label-one">FORM / FUNCTION</span>
-        <span class="art-label label-two">01 — 04</span>
-      </div>
-    </section>
+<section class="section wrap" id="about">
+  <div class="section-label">01 / About</div>
+  <div class="section-main">
+    <h2>Curiosity meets<br><span class="soft">engineering discipline.</span></h2>
+    <div class="body-copy">
+      <p>I’m Johnson Prem, a Mechanical Engineer interested in how products are designed, assembled, and improved. My work combines mechanical fundamentals with CAD modeling to develop concepts that are functional, manufacturable, and easy to communicate.</p>
+      <p>I have experience creating 3D models, assemblies, and engineering drawings using SolidWorks, Fusion 360, and AutoCAD. I’m especially interested in mechanical design, robotics, and sustainable engineering applications, and I’m keen to keep learning through hands-on projects and collaboration.</p>
+    </div>
+  </div>
+  <div class="principles">
+    <article><span>01</span><h3>Design with intent</h3><p>Start with the requirement, then build a solution around function, usability, and constraints.</p></article>
+    <article><span>02</span><h3>Detail matters</h3><p>Use careful modeling and clear drawings to support fit, assembly, and communication.</p></article>
+    <article><span>03</span><h3>Keep improving</h3><p>Explore alternatives, review the outcome, and refine the design through iteration.</p></article>
+  </div>
+</section>
 
-    <section class="work section-wrap" id="work">
-      <div class="section-heading">
-        <div><p class="eyebrow">Selected work</p><h2>Projects &amp; explorations</h2></div>
-        <p class="section-note">A few spaces to feature your strongest work. Replace these sample cards with real projects and images.</p>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <a class="project-visual visual-one" href="#contact" aria-label="Discuss project one">
-            <div class="visual-window"><div class="window-top"><i></i><i></i><i></i></div><div class="window-content"><span class="mini-kicker">PROJECT / 01</span><div class="mini-shape shape-a"></div><div class="mini-shape shape-b"></div><div class="mini-caption">A simple idea,<br>made useful.</div></div></div>
-            <span class="visual-number">01</span>
-          </a>
-          <div class="project-info"><div><h3>Interface concept</h3><p>Product design · UI exploration</p></div><span class="project-year">2026</span></div>
-        </article>
-        <article class="project-card">
-          <a class="project-visual visual-two" href="#contact" aria-label="Discuss project two">
-            <div class="poster"><span class="poster-small">DESIGN STUDY / 02</span><strong>Less,<br>but better.</strong><div class="poster-orbit"></div><span class="poster-footer">A study in visual hierarchy</span></div>
-            <span class="visual-number">02</span>
-          </a>
-          <div class="project-info"><div><h3>Visual identity study</h3><p>Art direction · Graphic design</p></div><span class="project-year">2026</span></div>
-        </article>
-        <article class="project-card">
-          <a class="project-visual visual-three" href="#contact" aria-label="Discuss project three">
-            <div class="model-scene"><div class="model-base"></div><div class="model-tower"></div><div class="model-ring"></div><span class="model-tag">FORM EXPLORATION</span></div>
-            <span class="visual-number">03</span>
-          </a>
-          <div class="project-info"><div><h3>Form exploration</h3><p>3D / CAD · Concept development</p></div><span class="project-year">2026</span></div>
-        </article>
-      </div>
-    </section>
+<section class="section projects wrap" id="projects">
+  <div class="section-label">02 / Selected projects</div>
+  <div class="section-heading"><h2>From concept<br><span class="soft">to CAD detail.</span></h2><p>A selection of academic and personal design explorations in product design, mechanical assemblies, and engineering visualization.</p></div>
+  <div class="project-grid">
+    <article class="project"><a class="project-img" href="images/lamp-concept.png" target="_blank" rel="noopener"><img src="images/lamp-concept.png" alt="Parametric lamp concept with lattice structure"></a><div class="project-meta"><span>01 · Product design</span><span>Fusion 360</span></div><h3>Parametric Lamp Design</h3><p>Geometric lamp concept with a lattice structure, developed to explore form, light diffusion, and parametric modeling.</p><ul><li>Parametric lattice geometry</li><li>Concept visualization</li><li>Manufacturing-aware modeling</li></ul></article>
+    <article class="project"><a class="project-img" href="images/saw-casing.png" target="_blank" rel="noopener"><img src="images/saw-casing.png" alt="Ergonomic saw casing concept model"></a><div class="project-meta"><span>02 · Industrial design</span><span>Fusion 360</span></div><h3>Ergonomic Saw Casing</h3><p>Power-tool casing concept focused on grip form, user interaction, and a streamlined product envelope.</p><ul><li>Ergonomic grip exploration</li><li>Form and surface development</li><li>Design-for-manufacture considerations</li></ul></article>
+    <article class="project"><a class="project-img" href="images/machine-vice.png" target="_blank" rel="noopener"><img src="images/machine-vice.png" alt="Mechanical vise assembly drawing"></a><div class="project-meta"><span>03 · Mechanical assembly</span><span>SolidWorks</span></div><h3>Precision Mechanical Vise</h3><p>Vise assembly with technical drawing views and bill of materials, emphasizing component relationships and assembly communication.</p><ul><li>Assembly modeling</li><li>Technical drawing and BOM</li><li>Dimensional detail</li></ul></article>
+    <article class="project"><a class="project-img" href="images/watch-design.jpg" target="_blank" rel="noopener"><img src="images/watch-design.jpg" alt="Modern wristwatch product design render"></a><div class="project-meta"><span>04 · Product design</span><span>Fusion 360</span></div><h3>Modern Wristwatch</h3><p>Minimal wristwatch concept exploring proportion, material contrast, and a clean product design language.</p><ul><li>Form and proportion studies</li><li>Material selection exploration</li><li>Product visualization</li></ul></article>
+    <article class="project"><a class="project-img" href="images/radial-engine.png" target="_blank" rel="noopener"><img src="images/radial-engine.png" alt="Radial engine assembly and drawing"></a><div class="project-meta"><span>05 · Mechanical engineering</span><span>SolidWorks</span></div><h3>Radial Engine Assembly</h3><p>Five-cylinder radial engine model showing component arrangement and mechanical assembly relationships.</p><ul><li>Multi-component assembly</li><li>Component breakdown</li><li>Assembly drawing presentation</li></ul></article>
+    <article class="project"><a class="project-img" href="images/four-cylinder-engine.jpg" target="_blank" rel="noopener"><img src="images/four-cylinder-engine.jpg" alt="Engine crankshaft and piston assembly"></a><div class="project-meta"><span>06 · Automotive engineering</span><span>SolidWorks</span></div><h3>Crankshaft &amp; Pistons</h3><p>Engine mechanism study featuring crankshaft, connecting rods, and piston arrangement in a four-cylinder layout.</p><ul><li>Engine component modeling</li><li>Assembly relationships</li><li>Mechanical mechanism study</li></ul></article>
+  </div>
+</section>
 
-    <section class="about section-wrap" id="about">
-      <div class="section-heading"><div><p class="eyebrow">A little about me</p><h2>Curious by nature.<br><span class="muted">Intentional by design.</span></h2></div></div>
-      <div class="about-content">
-        <p class="about-lead">I like asking the right questions, finding the simple solution, and making work that feels considered from the first sketch to the final detail.</p>
-        <div class="about-details">
-          <div><h3>What I do</h3><p>Design thinking<br>Visual communication<br>CAD / concept exploration</p></div>
-          <div><h3>Tools &amp; skills</h3><p>Creo Parametric<br>Prototyping and iteration<br>Layout and presentation</p></div>
-          <div><h3>Currently</h3><p>Building my practice<br>Learning through projects<br>Open to thoughtful collaboration</p></div>
-        </div>
-      </div>
-    </section>
+<section class="section wrap" id="strengths">
+  <div class="section-label">03 / Strengths</div>
+  <div class="section-main"><h2>Skills for thoughtful<br><span class="soft">engineering work.</span></h2><div class="skill-grid">
+    <article><span>01</span><h3>3D CAD &amp; modeling</h3><p>Part modeling, assemblies, surface exploration, and technical drawing development.</p></article>
+    <article><span>02</span><h3>CAD software</h3><p>SolidWorks, Fusion 360, and AutoCAD for mechanical design and visualization.</p></article>
+    <article><span>03</span><h3>Mechanical fundamentals</h3><p>Design principles, materials, manufacturing processes, and engineering analysis foundations.</p></article>
+    <article><span>04</span><h3>Design communication</h3><p>Organized drawings, component breakdowns, and clear presentation of design intent.</p></article>
+    <article><span>05</span><h3>Problem solving</h3><p>Structured thinking, iteration, and practical evaluation of design alternatives.</p></article>
+    <article><span>06</span><h3>Collaboration</h3><p>Open to feedback, coordination, and learning from cross-functional teams.</p></article>
+  </div></div>
+</section>
 
-    <section class="contact section-wrap" id="contact">
-      <p class="eyebrow">Have a project in mind?</p>
-      <h2>Let’s make something<br><span class="muted">clear and meaningful.</span></h2>
-      <a class="contact-link" href="mailto:hello@example.com">hello@example.com <span aria-hidden="true">↗</span></a>
-      <div class="contact-bottom"><span>johnsonpremb · Designer</span><a href="#home">Back to top ↑</a></div>
-    </section>
-  </main>
+<section class="section education wrap" id="education">
+  <div class="section-label">04 / Education</div><div class="section-main">
+    <div class="education-card"><div><p class="eyebrow">Bachelor of Engineering</p><h2>Mechanical Engineering</h2><p class="school">Latha Mathavan Engineering College</p></div><span class="education-index">BE / MECH</span></div>
+    <p class="education-copy">Academic foundation in mechanical design, thermal systems, manufacturing processes, materials science, engineering mathematics, and CAD/CAM technologies.</p>
+  </div>
+</section>
 
-  <footer class="site-footer"><span>© <span id="year"></span> johnsonpremb</span><span>Designed with intention.</span></footer>
-  <script src="script.js"></script>
-</body>
-</html>
+<section class="contact wrap" id="contact">
+  <div class="section-label">05 / Contact</div><div class="contact-content"><p class="eyebrow">Open to opportunities</p><h2>Let’s make good<br><span>engineering happen.</span></h2><p class="contact-copy">I’m interested in mechanical design roles, product development, collaborative projects, and opportunities to grow as an engineer. Reach out to discuss a role or project.</p>
+    <div class="contact-links"><a href="mailto:johnsonprem2002@gmail.com">Email me ↗</a><a href="https://www.linkedin.com/in/johnson-prem-0616152ab" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="tel:+919677869242">+91 96778 69242 ↗</a></div>
+  </div><footer><span>Johnson Prem · Mechanical Engineer</span><span>© <span id="year"></span> Johnson Prem</span><a href="#home">Back to top ↑</a></footer>
+</section>
+</main><script src="script.js"></script></body></html>
