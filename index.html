@@ -3,83 +3,69 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Johnson Prem, Mechanical Engineer focused on CAD design, mechanical assemblies, product development, and sustainable engineering.">
-  <title>Johnson Prem | Mechanical Engineer</title>
+  <meta name="theme-color" content="#080b12">
+  <meta name="description" content="Johnson Prem B, Mechanical Engineer. Portfolio of CAD design, mechanical assemblies, and engineering projects.">
+  <title>Johnson Prem B | Mechanical Engineering Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
 </head>
-<body>
-<header class="header">
-  <a class="brand" href="#home">Johnson Prem<span>.</span></a>
-  <button class="menu-toggle" aria-expanded="false" aria-label="Open navigation">Menu</button>
-  <nav class="nav" aria-label="Main navigation">
-    <a href="#about">About</a><a href="#projects">Projects</a><a href="#strengths">Strengths</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact ↗</a>
-  </nav>
-</header>
-<main>
-<section class="hero wrap" id="home">
-  <div class="hero-kicker"><span class="dot"></span> Mechanical Engineer · CAD & Product Design</div>
-  <h1>Engineering ideas.<br><span>Designed with purpose.</span></h1>
-  <div class="hero-bottom">
-    <p>Mechanical engineering graduate with a focus on 3D CAD, mechanical assemblies, and product concepts. I turn design requirements into clear, practical models and technical documentation.</p>
-    <a class="button button-dark" href="#projects">Explore my projects <span>↘</span></a>
-  </div>
-  <div class="hero-image"><img src="images/radial-engine.png" alt="Radial engine CAD assembly drawing"><div class="image-label">SELECTED CAD WORK <span>01 / 06</span></div></div>
-</section>
+<body class="has-motion">
+  <canvas id="engineering-cosmos" aria-hidden="true"></canvas>
+  <header class="site-header">
+    <a class="brand" href="#home">Johnson Prem B<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a>
+      <a class="nav-contact" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
 
-<section class="section wrap" id="about">
-  <div class="section-label">01 / About</div>
-  <div class="section-main">
-    <h2>Curiosity meets<br><span class="soft">engineering discipline.</span></h2>
-    <div class="body-copy">
-      <p>I’m Johnson Prem, a Mechanical Engineer interested in how products are designed, assembled, and improved. My work combines mechanical fundamentals with CAD modeling to develop concepts that are functional, manufacturable, and easy to communicate.</p>
-      <p>I have experience creating 3D models, assemblies, and engineering drawings using SolidWorks, Fusion 360, and AutoCAD. I’m especially interested in mechanical design, robotics, and sustainable engineering applications, and I’m keen to keep learning through hands-on projects and collaboration.</p>
-    </div>
-  </div>
-  <div class="principles">
-    <article><span>01</span><h3>Design with intent</h3><p>Start with the requirement, then build a solution around function, usability, and constraints.</p></article>
-    <article><span>02</span><h3>Detail matters</h3><p>Use careful modeling and clear drawings to support fit, assembly, and communication.</p></article>
-    <article><span>03</span><h3>Keep improving</h3><p>Explore alternatives, review the outcome, and refine the design through iteration.</p></article>
-  </div>
-</section>
+  <main>
+    <section class="hero section reveal" id="home">
+      <p class="eyebrow">MECHANICAL ENGINEERING · CAD DESIGN · PRODUCT DEVELOPMENT</p>
+      <h1>Engineering ideas.<br><span>Designed with purpose.</span></h1>
+      <div class="hero-bottom">
+        <p>Mechanical engineering graduate focused on 3D CAD, mechanical assemblies, and product concepts. I turn design requirements into practical models and clear technical documentation.</p>
+        <a class="button button-primary" href="#projects">Explore my projects <span>↘</span></a>
+      </div>
+      <figure class="hero-visual hero-glow">
+        <img src="assets/helmet-render.jpg" alt="Rendered CAD concept of a motorcycle helmet">
+        <figcaption><span>Featured work</span> Helmet concept design · CAD modelling</figcaption>
+      </figure>
+    </section>
 
-<section class="section projects wrap" id="projects">
-  <div class="section-label">02 / Selected projects</div>
-  <div class="section-heading"><h2>From concept<br><span class="soft">to CAD detail.</span></h2><p>A selection of academic and personal design explorations in product design, mechanical assemblies, and engineering visualization.</p></div>
-  <div class="project-grid">
-    <article class="project"><a class="project-img" href="images/lamp-concept.png" target="_blank" rel="noopener"><img src="images/lamp-concept.png" alt="Parametric lamp concept with lattice structure"></a><div class="project-meta"><span>01 · Product design</span><span>Fusion 360</span></div><h3>Parametric Lamp Design</h3><p>Geometric lamp concept with a lattice structure, developed to explore form, light diffusion, and parametric modeling.</p><ul><li>Parametric lattice geometry</li><li>Concept visualization</li><li>Manufacturing-aware modeling</li></ul></article>
-    <article class="project"><a class="project-img" href="images/saw-casing.png" target="_blank" rel="noopener"><img src="images/saw-casing.png" alt="Ergonomic saw casing concept model"></a><div class="project-meta"><span>02 · Industrial design</span><span>Fusion 360</span></div><h3>Ergonomic Saw Casing</h3><p>Power-tool casing concept focused on grip form, user interaction, and a streamlined product envelope.</p><ul><li>Ergonomic grip exploration</li><li>Form and surface development</li><li>Design-for-manufacture considerations</li></ul></article>
-    <article class="project"><a class="project-img" href="images/machine-vice.png" target="_blank" rel="noopener"><img src="images/machine-vice.png" alt="Mechanical vise assembly drawing"></a><div class="project-meta"><span>03 · Mechanical assembly</span><span>SolidWorks</span></div><h3>Precision Mechanical Vise</h3><p>Vise assembly with technical drawing views and bill of materials, emphasizing component relationships and assembly communication.</p><ul><li>Assembly modeling</li><li>Technical drawing and BOM</li><li>Dimensional detail</li></ul></article>
-    <article class="project"><a class="project-img" href="images/watch-design.jpg" target="_blank" rel="noopener"><img src="images/watch-design.jpg" alt="Modern wristwatch product design render"></a><div class="project-meta"><span>04 · Product design</span><span>Fusion 360</span></div><h3>Modern Wristwatch</h3><p>Minimal wristwatch concept exploring proportion, material contrast, and a clean product design language.</p><ul><li>Form and proportion studies</li><li>Material selection exploration</li><li>Product visualization</li></ul></article>
-    <article class="project"><a class="project-img" href="images/radial-engine.png" target="_blank" rel="noopener"><img src="images/radial-engine.png" alt="Radial engine assembly and drawing"></a><div class="project-meta"><span>05 · Mechanical engineering</span><span>SolidWorks</span></div><h3>Radial Engine Assembly</h3><p>Five-cylinder radial engine model showing component arrangement and mechanical assembly relationships.</p><ul><li>Multi-component assembly</li><li>Component breakdown</li><li>Assembly drawing presentation</li></ul></article>
-    <article class="project"><a class="project-img" href="images/four-cylinder-engine.jpg" target="_blank" rel="noopener"><img src="images/four-cylinder-engine.jpg" alt="Engine crankshaft and piston assembly"></a><div class="project-meta"><span>06 · Automotive engineering</span><span>SolidWorks</span></div><h3>Crankshaft &amp; Pistons</h3><p>Engine mechanism study featuring crankshaft, connecting rods, and piston arrangement in a four-cylinder layout.</p><ul><li>Engine component modeling</li><li>Assembly relationships</li><li>Mechanical mechanism study</li></ul></article>
-  </div>
-</section>
+    <section class="section about reveal" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / ABOUT</p><h2>Design thinking,<br>engineering discipline.</h2></div>
+      <div class="about-copy"><p class="lead">I am Johnson Prem B, a Mechanical Engineer interested in developing functional, well-considered mechanical designs.</p><p>My project work spans product modelling, mechanical assemblies, 2D drafting, and introductory simulation workflows. I use CAD to explore form, understand component relationships, and communicate design intent through models and drawings.</p><p>I value accuracy, practical problem-solving, and a willingness to learn throughout the design process.</p></div>
+    </section>
 
-<section class="section wrap" id="strengths">
-  <div class="section-label">03 / Strengths</div>
-  <div class="section-main"><h2>Skills for thoughtful<br><span class="soft">engineering work.</span></h2><div class="skill-grid">
-    <article><span>01</span><h3>3D CAD &amp; modeling</h3><p>Part modeling, assemblies, surface exploration, and technical drawing development.</p></article>
-    <article><span>02</span><h3>CAD software</h3><p>SolidWorks, Fusion 360, and AutoCAD for mechanical design and visualization.</p></article>
-    <article><span>03</span><h3>Mechanical fundamentals</h3><p>Design principles, materials, manufacturing processes, and engineering analysis foundations.</p></article>
-    <article><span>04</span><h3>Design communication</h3><p>Organized drawings, component breakdowns, and clear presentation of design intent.</p></article>
-    <article><span>05</span><h3>Problem solving</h3><p>Structured thinking, iteration, and practical evaluation of design alternatives.</p></article>
-    <article><span>06</span><h3>Collaboration</h3><p>Open to feedback, coordination, and learning from cross-functional teams.</p></article>
-  </div></div>
-</section>
+    <section class="section projects reveal" id="projects">
+      <div class="section-heading projects-heading"><div><p class="eyebrow">02 / SELECTED WORK</p><h2>CAD projects</h2></div><p class="section-note">A selection of product concepts, assemblies, and engineering models.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-wide tilt-card"><a class="project-image" href="assets/helmet-cad.jpg" target="_blank" rel="noreferrer"><img src="assets/helmet-cad.jpg" alt="Motorcycle helmet CAD model in SOLIDWORKS"></a><div class="project-meta"><span>01 / PRODUCT DESIGN</span><span>SOLIDWORKS</span></div><h3>Motorcycle Helmet Concept</h3><p>Helmet shell and visor concept modelled with attention to surface form, component detailing, and visual presentation.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/helmet-flow-simulation.jpg" target="_blank" rel="noreferrer"><img src="assets/helmet-flow-simulation.jpg" alt="Flow trajectories around a helmet in a simulation workspace"></a><div class="project-meta"><span>02 / SIMULATION</span><span>SOLIDWORKS FLOW</span></div><h3>Helmet Flow Study</h3><p>Flow trajectory visualization around a helmet model, exploring airflow patterns in a simulation setup.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/jeep-model.jpg" target="_blank" rel="noreferrer"><img src="assets/jeep-model.jpg" alt="Rendered Jeep-style vehicle CAD concept"></a><div class="project-meta"><span>03 / VEHICLE DESIGN</span><span>3D CAD</span></div><h3>Off-Road Vehicle Model</h3><p>Vehicle concept assembly with body, wheels, exterior features, and accessory details.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/mechanical-assembly.jpg" target="_blank" rel="noreferrer"><img src="assets/mechanical-assembly.jpg" alt="Mechanical component assembly model"></a><div class="project-meta"><span>04 / MECHANICAL DESIGN</span><span>SOLIDWORKS</span></div><h3>Mechanical Assembly</h3><p>Component-level modelling and assembly of a compact mechanical mechanism with shafts and supporting features.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/bus-drawing.jpg" target="_blank" rel="noreferrer"><img src="assets/bus-drawing.jpg" alt="Bus technical drawing with multiple orthographic views"></a><div class="project-meta"><span>05 / TECHNICAL DRAFTING</span><span>AUTOCAD</span></div><h3>Bus Orthographic Drawing</h3><p>2D vehicle drafting with side, front, rear, and top views for communicating overall geometry.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/cooling-fan.jpg" target="_blank" rel="noreferrer"><img src="assets/cooling-fan.jpg" alt="3D CAD model of a cooling fan"></a><div class="project-meta"><span>06 / COMPONENT DESIGN</span><span>AUTOCAD</span></div><h3>Cooling Fan Model</h3><p>Fan and housing concept featuring a bladed rotor, mounting frame, and cable detail.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/engine-assembly.jpg" target="_blank" rel="noreferrer"><img src="assets/engine-assembly.jpg" alt="Detailed multi-cylinder engine assembly CAD model"></a><div class="project-meta"><span>07 / ENGINEERING ASSEMBLY</span><span>3D CAD</span></div><h3>Engine Assembly</h3><p>Detailed engine assembly model showing major components, layout, and component relationships.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/turbine-propeller.jpg" target="_blank" rel="noreferrer"><img src="assets/turbine-propeller.jpg" alt="CAD model of a multi-blade propeller"></a><div class="project-meta"><span>08 / ROTATING COMPONENT</span><span>AUTOCAD</span></div><h3>Propeller Model</h3><p>Blade geometry and hub modelled as a rotating component concept.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/structural-analysis.jpg" target="_blank" rel="noreferrer"><img src="assets/structural-analysis.jpg" alt="Finite element structural analysis result with deformation contour"></a><div class="project-meta"><span>09 / FEA</span><span>ANSYS</span></div><h3>Structural Analysis</h3><p>Finite element result visualization showing a total deformation contour on a mechanical assembly.</p></article>
+        <article class="project-card tilt-card"><a class="project-image" href="assets/scissor-jack.jpg" target="_blank" rel="noreferrer"><img src="assets/scissor-jack.jpg" alt="Scissor jack mechanism CAD assembly"></a><div class="project-meta"><span>10 / MECHANISM DESIGN</span><span>3D CAD</span></div><h3>Scissor Jack Mechanism</h3><p>Mechanical lifting mechanism with linked arms, threaded screw, and support pads.</p></article>
+      </div>
+    </section>
 
-<section class="section education wrap" id="education">
-  <div class="section-label">04 / Education</div><div class="section-main">
-    <div class="education-card"><div><p class="eyebrow">Bachelor of Engineering</p><h2>Mechanical Engineering</h2><p class="school">Latha Mathavan Engineering College</p></div><span class="education-index">BE / MECH</span></div>
-    <p class="education-copy">Academic foundation in mechanical design, thermal systems, manufacturing processes, materials science, engineering mathematics, and CAD/CAM technologies.</p>
-  </div>
-</section>
+    <section class="section skills reveal" id="skills">
+      <div class="section-heading"><p class="eyebrow">03 / CAPABILITIES</p><h2>Tools and strengths</h2></div>
+      <div class="skill-list"><div><span>01</span><h3>3D CAD Modelling</h3><p>Part modelling, assemblies, and product concepts</p></div><div><span>02</span><h3>Technical Drafting</h3><p>2D drawings and orthographic views</p></div><div><span>03</span><h3>Mechanical Design</h3><p>Component relationships and mechanism concepts</p></div><div><span>04</span><h3>Engineering Simulation</h3><p>Exposure to flow visualization and structural analysis</p></div><div><span>05</span><h3>CAD Tools</h3><p>SOLIDWORKS, AutoCAD, Fusion 360</p></div></div>
+    </section>
 
-<section class="contact wrap" id="contact">
-  <div class="section-label">05 / Contact</div><div class="contact-content"><p class="eyebrow">Open to opportunities</p><h2>Let’s make good<br><span>engineering happen.</span></h2><p class="contact-copy">I’m interested in mechanical design roles, product development, collaborative projects, and opportunities to grow as an engineer. Reach out to discuss a role or project.</p>
-    <div class="contact-links"><a href="mailto:johnsonprem2002@gmail.com">Email me ↗</a><a href="https://www.linkedin.com/in/johnson-prem-0616152ab" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="tel:+919677869242">+91 96778 69242 ↗</a></div>
-  </div><footer><span>Johnson Prem · Mechanical Engineer</span><span>© <span id="year"></span> Johnson Prem</span><a href="#home">Back to top ↑</a></footer>
-</section>
-</main><script src="script.js"></script></body></html>
+    <section class="section education reveal" id="education"><div class="section-heading"><p class="eyebrow">04 / EDUCATION</p><h2>Engineering foundation</h2></div><div class="education-detail"><h3>Bachelor of Engineering, Mechanical Engineering</h3><p>Latha Mathavan Engineering College</p><p class="muted">Core areas include mechanical design, thermal systems, manufacturing processes, materials science, and engineering mathematics.</p></div></section>
+
+    <section class="section contact reveal" id="contact"><p class="eyebrow">05 / CONTACT</p><h2>Let’s discuss<br><span>your next project.</span></h2><p class="contact-intro">Open to mechanical design opportunities, collaborative projects, and conversations with engineering teams.</p><div class="contact-links"><a href="mailto:johnsonprem2002@gmail.com"><span>Email</span><strong>johnsonprem2002@gmail.com ↗</strong></a><a href="https://www.linkedin.com/in/johnson-prem-0616152ab" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Connect professionally ↗</strong></a><a href="tel:+919677869242"><span>Phone</span><strong>+91 96778 69242 ↗</strong></a></div></section>
+  </main>
+  <footer><a class="brand" href="#home">Johnson Prem B<span>.</span></a><p>Mechanical Engineer · CAD Design</p><small>© 2026 Johnson Prem B</small></footer>
+</body>
+</html>
